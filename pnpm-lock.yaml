@@ -30,6 +30,9 @@ importers:
       eslint:
         specifier: 9.4.0
         version: 9.4.0
+      eslint-plugin-vitest:
+        specifier: ^0.5.4
+        version: 0.5.4(@typescript-eslint/eslint-plugin@7.11.0(@typescript-eslint/parser@7.11.0(eslint@9.4.0)(typescript@5.4.5))(eslint@9.4.0)(typescript@5.4.5))(eslint@9.4.0)(typescript@5.4.5)(vitest@1.6.0)
       tsx:
         specifier: ^4.11.2
         version: 4.11.2
