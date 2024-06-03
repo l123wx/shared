@@ -7,16 +7,22 @@
   "license": "ISC",
   "keywords": [],
   "scripts": {
-    "test": "vitest"
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "lint": "eslint ."
   },
   "dependencies": {
     "lodash-es": "^4.17.21",
-    "vue": "^3.4.27"
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.20.0",
     "@types/lodash-es": "^4.17.12",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
     "eslint": "9.4.0",
+    "tsx": "^4.11.2",
+    "typescript": "^5.4.5",
     "vitest": "^1.6.0"
   }
 }
